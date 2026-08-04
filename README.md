@@ -64,8 +64,8 @@ CREATE TABLE zepto (
 - Loaded CSV file using import feature.
 - Loading data in table using the code below :
 
-  ``` sql
-    LOAD DATA LOCAL INFILE 'C:/Users/Avnish/Downloads/zepto_v22.csv'
+  ```sql
+LOAD DATA LOCAL INFILE 'C:/Users/Avnish/Downloads/zepto_v22.csv'
   INTO TABLE zepto
   FIELDS TERMINATED BY ','
   ENCLOSED BY '"'
@@ -82,7 +82,7 @@ CREATE TABLE zepto (
   quantity);
  ```
 
-**3. 🔍 Data Exploration**
+****3. 🔍 Data Exploration**
 - Counted the total number of records in the dataset
 
 - Viewed a sample of the dataset to understand structure and content
