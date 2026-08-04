@@ -90,5 +90,26 @@ IGNORE 1 ROWS
 - Viewed a sample of the dataset.
 - Checked for NULL values.
 - Identified distinct product categories available in the dataset
--Compared in-stock vs out-of-stock product counts
--Detected products present multiple times, representing different SKUs
+- Compared in-stock vs out-of-stock product counts
+- Detected products present multiple times, representing different SKUs
+
+**4. 🧹 Data Cleaning**
+- Identified and removed rows where MRP or discounted selling price was zero
+- Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
+
+**5. 📊 Business Insights**
+- Found top 10 best-value products based on discount percentage
+
+- Identified high-MRP products that are currently out of stock
+
+- Estimated potential revenue for each product category
+
+- Filtered expensive products (MRP > ₹500) with minimal discount
+
+- Ranked top 5 categories offering highest average discounts
+
+- Calculated price per gram to identify value-for-money products
+
+- Grouped products based on weight into Low, Medium, and Bulk categories
+
+- Measured total inventory weight per product category
