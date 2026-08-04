@@ -39,7 +39,7 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 
 - **quantity:** Pack size or quantity of the product (e.g., 500g, 1L, 6 pcs)
 
-- 🔧 **Project Workflow**
+🔧 **Project Workflow**
 Here’s a step-by-step breakdown of what we do in this project:
 
 **1. Database & Table Creation**
