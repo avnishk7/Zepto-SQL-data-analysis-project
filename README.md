@@ -66,21 +66,22 @@ CREATE TABLE zepto (
 
   ``` sql
     LOAD DATA LOCAL INFILE 'C:/Users/Avnish/Downloads/zepto_v22.csv'
-    INTO TABLE zepto
-    FIELDS TERMINATED BY ','
-    ENCLOSED BY '"'
-    LINES TERMINATED BY '\r\n'
-    IGNORE 1 ROWS
-    (category,
-     name,
-     mrp,
-         discountPercent,
-     availableQuantity,
-     discountedSellingPrice,
-     weightInGms,
-     outOfStock,
-     quantity);
+  INTO TABLE zepto
+  FIELDS TERMINATED BY ','
+  ENCLOSED BY '"'
+  LINES TERMINATED BY '\r\n'
+  IGNORE 1 ROWS
+  (category,
+  name,
+  mrp,
+  discountPercent,
+  availableQuantity,
+  discountedSellingPrice,
+  weightInGms,
+  outOfStock,
+  quantity);
  ```
+
 **3. 🔍 Data Exploration**
 - Counted the total number of records in the dataset
 
