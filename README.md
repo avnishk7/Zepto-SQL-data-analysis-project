@@ -64,7 +64,7 @@ CREATE TABLE zepto (
 - Loaded CSV file using import feature.
 - Loading data in table using the code below :
 
-  ```sql
+```sql
 LOAD DATA LOCAL INFILE 'YOUR_FILE_PATH/zepto_v22.csv'
 INTO TABLE zepto
 FIELDS TERMINATED BY ','
@@ -89,3 +89,6 @@ IGNORE 1 ROWS
 - Counted the total number of records in the dataset.
 - Viewed a sample of the dataset.
 - Checked for NULL values.
+- Identified distinct product categories available in the dataset
+-Compared in-stock vs out-of-stock product counts
+-Detected products present multiple times, representing different SKUs
