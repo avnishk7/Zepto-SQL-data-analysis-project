@@ -98,18 +98,32 @@ IGNORE 1 ROWS
 - Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
 
 **5. 📊 Business Insights**
-- Found top 10 best-value products based on discount percentage
+- Found top 10 best-value products based on discount percentage.
+- Calculate Estimated Revenue for each category.
+- Find all products where MRP is greater than ₹500 and discount is less than 10%.
+- Identify the top 5 categories offering the highest average discount percentage.
+- Find the second most expensive product in every category.
+- Find the top 3 costliest products from each category.
+- Find the top 5 products causing the highest revenue loss due to discounts.
+- Find products whose price is greater than the average price of their own category.
+- Find the top 5 most discounted products in every category.
 
-- Identified high-MRP products that are currently out of stock
+  **📜 License**
+MIT — feel free to fork, star, and use in your portfolio.
 
-- Estimated potential revenue for each product category
+**👨‍💻 About the Author**
+Hey, my name is **Avnish**
 
-- Filtered expensive products (MRP > ₹500) with minimal discount
+Aspiring Data Analyst with a strong interest in SQL, Data Analytics, and Business Intelligence.
+Passionate about solving real-world business problems using data and continuously improving analytical and technical skills through hands-on projects.
 
-- Ranked top 5 categories offering highest average discounts
+### Skills
+- SQL (MySQL)
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Window Functions
+- Excel
+- Power BI (Learning)
+- Python (Learning)
 
-- Calculated price per gram to identify value-for-money products
-
-- Grouped products based on weight into Low, Medium, and Bulk categories
-
-- Measured total inventory weight per product category
+  **💡 Thanks for checking out the project! Your support means a lot — feel free to star ⭐ this repo or share it with someone learning SQL.🚀**
