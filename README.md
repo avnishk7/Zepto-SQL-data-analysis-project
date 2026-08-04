@@ -65,7 +65,7 @@ CREATE TABLE zepto (
 - Loading data in table using the code below :
 
   ``` sql
-  LOAD DATA LOCAL INFILE 'C:/Users/Avnish/Downloads/zepto_v22.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/Avnish/Downloads/zepto_v22.csv'
 INTO TABLE zepto
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
