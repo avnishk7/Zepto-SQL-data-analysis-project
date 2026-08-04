@@ -65,34 +65,27 @@ CREATE TABLE zepto (
 - Loading data in table using the code below :
 
   ```sql
-    LOAD DATA LOCAL INFILE 'C:/Users/Avnish/Downloads/zepto_v22.csv'
-      INTO TABLE zepto
-      FIELDS TERMINATED BY ','
-      ENCLOSED BY '"'
-      LINES TERMINATED BY '\r\n'
-      IGNORE 1 ROWS
-      (category,
-      name,
-      mrp,
-      discountPercent,
-      availableQuantity,
-      discountedSellingPrice,
-      weightInGms,
-      outOfStock,
-      quantity);
- ```
+LOAD DATA LOCAL INFILE 'YOUR_FILE_PATH/zepto_v22.csv'
+INTO TABLE zepto
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS
+(
+    category,
+    name,
+    mrp,
+    discountPercent,
+    availableQuantity,
+    discountedSellingPrice,
+    weightInGms,
+    outOfStock,
+    quantity
+);
+```
 
-**3. 🔍 Data Exploration**
-- Counted the total number of records in the dataset
+## 🔍 3. Data Exploration
 
-- Viewed a sample of the dataset to understand structure and content
-
-- Checked for null values across all columns
-
-- Identified distinct product categories available in the dataset
-
-- Compared in-stock vs out-of-stock product counts
-
-- Detected products present multiple times, representing different SKUs
-
-
+- Counted the total number of records in the dataset.
+- Viewed a sample of the dataset.
+- Checked for NULL values.
