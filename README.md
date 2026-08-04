@@ -112,8 +112,8 @@ IGNORE 1 ROWS
 MIT — feel free to fork, star, and use in your portfolio.
 
 **👨‍💻 About the Author**
-Hey, my name is **Avnish**
-
+Hi, I'm **Avnish**, an aspiring **Data Analyst** from Faridabad, Haryana. I completed my **Bachelor of Computer Applications (BCA)** and am currently pursuing a **Master of Computer Applications (MCA)** from **Lovely Professional University (Online)**.
+I am actively building my portfolio and continuously learning new tools and technologies to prepare for a successful career in data analytics.
 Aspiring Data Analyst with a strong interest in SQL, Data Analytics, and Business Intelligence.
 Passionate about solving real-world business problems using data and continuously improving analytical and technical skills through hands-on projects.
 
